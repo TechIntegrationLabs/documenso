@@ -1,6 +1,6 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "framework": "remix",
+  "framework": "vite",
   "buildCommand": "npm run build --workspace=@documenso/remix",
   "installCommand": "npm install --legacy-peer-deps --workspaces --include-workspace-root",
   "outputDirectory": "apps/remix/build/client",
