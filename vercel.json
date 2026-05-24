@@ -1,8 +1,6 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "framework": "vite",
   "buildCommand": "npm run prisma:generate && npm run translate:compile && npm run build --workspace=@documenso/remix",
-  "installCommand": "npm install --legacy-peer-deps --workspaces --include-workspace-root",
-  "outputDirectory": "apps/remix/build/client",
+  "installCommand": "npm install --legacy-peer-deps --workspaces --include-workspace-root && npm install --no-save @vercel/react-router --workspace=@documenso/remix",
   "regions": ["iad1"]
 }
